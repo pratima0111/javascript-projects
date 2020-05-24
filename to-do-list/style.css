@@ -5,7 +5,6 @@
 ul{
     margin:0;
     padding:0;
-
 }
 
 ul li{
@@ -46,8 +45,6 @@ ul li.checked::before{
     height: 15px;
     width: 7px;
 }
-
-
 .close{
     position: absolute;
     right:0;
@@ -68,9 +65,6 @@ ul li.checked::before{
     font-size: 1.5em;
 
 }
-
-/* ye smjh nhi aya */
-
 .header:after{
     content:" ";
     display:table;
@@ -97,12 +91,9 @@ input{
     font-size: 0.79em;
     cursor: pointer;
     transition:0.3s;
-    border-radius: 0;
-    
+    border-radius: 0;   
 }
 
 .addbtn:hover{
     background:#bbb;
 }
-
-
