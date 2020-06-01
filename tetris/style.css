@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+
+#game{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    background-image: linear-gradient(rgba(39, 201, 187, 0.603), rgba(225, 248, 247, 0.301));
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+}
+
+#heading1{
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 2px 2px 8px rgba(36, 34, 182, 0.603);
+    padding-right:5%;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.grid{
+    width:200px;
+    height:400px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.grid div{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.tetromino{
+    background-color: salmon;
+}
+
+.mini-grid{
+    margin-left: 50px;
+    height: 80px;
+    width:80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+.mini-grid div{
+    height: 20px;
+    width:20px;
+
+}
